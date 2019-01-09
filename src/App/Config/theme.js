@@ -13,7 +13,11 @@ const theme = {
     small: "0 0 4px rgba(0, 0, 0, .125)",
     large: "0 0 24px rgba(0, 0, 0, .125)"
   },
-  radii: [0, 2, 4, 6]
+  radii: [0, 2, 4, 6],
+  maxWidths: {
+    small: "768px",
+    large: "1024px"
+  }
 };
 
 export default theme;

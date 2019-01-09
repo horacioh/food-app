@@ -1,18 +1,20 @@
 import * as React from "react";
-import Box from "./Box";
+import Section from "./Section";
 import Heading from "./Heading";
 import FoodTable from "./FoodTable";
+import RawData from './RawData'
 import Footer from "./Footer";
 
 function App() {
   return (
-    <Box>
+    <Section>
       <Heading textAlign="center" m={4} fontSize={5} as="h1">
         Hello Food App
       </Heading>
       <FoodTable />
+      <RawData />
       <Footer />
-    </Box>
+    </Section>
   );
 }
 

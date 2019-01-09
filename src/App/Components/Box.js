@@ -7,7 +7,8 @@ import {
   flex,
   order,
   alignSelf,
-  borderRadius
+  borderRadius,
+  maxWidth
 } from "styled-system";
 
 const Box = styled("div")(
@@ -21,7 +22,8 @@ const Box = styled("div")(
   flex,
   order,
   alignSelf,
-  borderRadius
+  borderRadius,
+  maxWidth
 );
 
 export default Box;
