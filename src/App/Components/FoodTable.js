@@ -9,7 +9,7 @@ function FoodTable() {
       {({ data, setData }) => (
         <Box>
           {Object.keys(data).map(id => (
-            <FoodRow food={data[id]} id={id} onChange={setData} />
+            <FoodRow key={id} food={data[id]} id={id} onChange={setData} />
           ))}
         </Box>
       )}
